@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<script type="text/javascript" src="./js/carrousel_automatico.js"></script>-->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style_menu_dropdown.css">
+    <link rel="stylesheet" href="./css/style_carrousel_automatico.css">
+    <link rel="stylesheet" href="./css/style_lluvia.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Water Games</title>
+</head>
+<body>
+    <header>
+        <section class="header">
+            <div class="header1"></div>
+            <div class="header-fil1">
+                <div class="container">
+                    <div class="nav-start">
+                        <a class="logo" href="/">
+                            <img src="./img/icons/logo.png" width="35" height="35" alt="Inc Logo"/>
+                        </a>
+                        <nav class="menu">
+                            <ul class="menu-bar">
+                                <li>
+                                    <button class="nav-link dropdown-btn" data-dropdown="dropdown1" aria-haspopup="true" aria-expanded="false" aria-label="browse">
+                                        Destacados <i class="bx bx-chevron-down" aria-hidden="true"></i>
+                                    </button>
+                                    <div id="dropdown1" class="dropdown">
+
+                                        <ul role="menu">
+                                            <li role="menuitem">
+                                                <a class="dropdown-link" href="./pages/destacados-mes/destacado1.html">
+                                                    <img src="./img/icons/botd.svg" class="icon" />
+                                                    <div>
+                                                        <span class="dropdown-link-title">Hyper-Accelerated Game</span>
+                                                        <p>Descripcion Hyper-Accelerated Game</p>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li role="menuitem">
+                                                <a class="dropdown-link" href="./pages/destacados-mes/destacado2.html">
+                                                    <img src="./img/icons/fs.svg" class="icon" />
+                                                    <div>
+                                                        <span class="dropdown-link-title">SaveWaterGame</span>
+                                                        <p>Descripcion SaveWaterGame</p>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li role="menuitem">
+                                                <a class="dropdown-link" href="./pages/destacados-mes/destacado3.html">
+                                                    <img src="./img/icons/sp.svg" class="icon" />
+                                                    <div>
+                                                        <span class="dropdown-link-title">Aqua Dino House</span>
+                                                        <p>Descripcion Aqua Dino House</p>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li role="menuitem">
+                                                <a class="dropdown-link" href="./pages/destacados-mes/destacado4.html">
+                                                    <img src="./img/icons/cf.svg" class="icon" />
+                                                    <div>
+                                                        <span class="dropdown-link-title">AquaQuiz</span>
+                                                        <p>Descripcion AquaQuiz</p>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+
+                                        <ul role="menu">
+                                            <li class="dropdown-title">
+                                                <span class="dropdown-link-title">Buscar por Tecnologia</span>
+                                            </li>
+                                            <li role="menuitem">
+                                                <a class="dropdown-link" href="#adobe-xd">
+                                                    <img src="./img/icons/xd.svg" />Adobe XD
+                                                </a>
+                                            </li>
+                                            <li role="menuitem">
+                                                <a class="dropdown-link" href="#after-effect">
+                                                    <img src="./img/icons/ae.svg" />After Effect
+                                                </a>
+                                            </li>
+                                            <li role="menuitem">
+                                                <a class="dropdown-link" href="#sketch">
+                                                    <img src="./img/icons/sketch.svg" />Sketch
+                                                </a>
+                                            </li>
+                                            <li role="menuitem">
+                                                <a class="dropdown-link" href="#indesign">
+                                                    <img src="./img/icons/indesign.svg" />Indesign
+                                                </a>
+                                            </li>
+                                            <li role="menuitem">
+                                                <a class="dropdown-link" href="#figma">
+                                                    <img src="./img/icons/figma.svg" />Figma
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <button class="nav-link dropdown-btn" data-dropdown="dropdown2" aria-haspopup="true" aria-expanded="false" aria-label="discover">
+                                        Favoritos <i class="bx bx-chevron-down" aria-hidden="true"></i>
+                                    </button>
+                                    <div id="dropdown2" class="dropdown">
+                                        <ul role="menu">
+                                            <li>
+                                                <span class="dropdown-link-title">Buscar por categorías</span>
+                                            </li>
+                                            <li role="menuitem">
+                                                <a class="dropdown-link" href="#branding">Marcas</a>
+                                            </li>
+                                            <li role="menuitem">
+                                                <a class="dropdown-link" href="#illustrations">Imágenes</a>
+                                            </li>
+                                        </ul>
+                                        <ul role="menu">
+                                            <li>
+                                                <span class="dropdown-link-title">Descargas App</span>
+                                            </li>
+                                            <li role="menuitem">
+                                                <a class="dropdown-link" href="#mac-windows">MacOS & Windows</a>
+                                            </li>
+                                            <li role="menuitem">
+                                                <a class="dropdown-link" href="#linux">Linux</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a class="nav-link" href="#noticias">Noticias</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" href="/">Nosotros</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" href="/">Contáctenos</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="nav-end">
+                        <div class="right-container">
+                            <form class="search" role="search">
+                                <input type="search" name="search" id="buscar" placeholder="Buscar" class="header-fil2-buscar"/>
+                                <i class="bx bx-search" aria-hidden="true"></i>
+                            </form>
+                            <a href="#profile">
+                                <img src="./img/icons/gotita.png" width="30" height="30" alt="user image"/>
+                            </a>
+                            <button class="btn btn-primary boton-contacto">Contacto</button>
+                        </div>
+                        <button id="hamburger" aria-label="hamburger" aria-haspopup="true" aria-expanded="false">
+                            <i class="bx bx-menu" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="header-fil2">
+                <h2><marquee class="header-fil2-marquee">"No se aprecia el valor del agua hasta que se seca el pozo..." por eso ¡CUIDA EL AGUA, CUIDA EL MAR, CUIDA EL MUNDO!</marquee></h2>
+            </div>
+            <div class="header3"></div>
+        </section>
+    </header>
+    <main>
+        <section class="banner1">
+            <h1>WATER GAMES</h1>
+            <p>***Aprende jugando a cuidar el agua***</p>
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 4</div>
+                    <img src="./img/Banner_01_1000x350.png" style="width:100%">
+                    <div class="text">Hyper-Accelerated Game v 1.0 on Scratch</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 4</div>
+                    <img src="./img/Banner_02_1000x350.png" style="width:100%">
+                    <div class="text">SaveWaterGame</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 4</div>
+                    <img src="./img/Banner_03_1000x350.png" style="width:100%">
+                    <div class="text">Aqua Dino House lvl1 on Scratch</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 4</div>
+                    <img src="./img/Banner_04_1000x350.png" style="width:100%">
+                    <div class="text">AquaQuiz</div>
+                </div>
+            </div>
+            <br>
+            <div style="text-align:center">
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </section>
+        <section class="destacados-mes">
+            <p>DESTACADOS DEL MES</p>
+            <div class="destacados-cards">
+                <article class="destacado-card">
+                    <div class="corazonCard">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <div class="fondoCard">
+                        <img src="./img/cards/Cards_01_fondo_800x400.png" alt="">
+                    </div>
+                    <div class="frontalCard">
+                        <img src="./img/cards/Cards_01_frontal_400x400.png" alt="">
+                    </div>
+                    <div class="tituloCard">
+                        <h2>Hyper-Accelerated Game v 1.0 on Scratch</h2>
+                    </div>
+                    <div class="textoCard">
+                        <p>¡No dejes caer ninguna gota! Usa el mouse para atraparlas y así no desperdiciarás el agua</p>
+                    </div>
+                    <div class="btnCard">
+                        <a href="./pages/destacados-mes/destacado1.html">¡A jugar!</a>
+                    </div>
+                </article>
+                <article class="destacado-card">
+                    <div class="corazonCard">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <div class="fondoCard">
+                        <img src="./img/cards/Cards_02_fondo_800x400.png" alt="">
+                    </div>
+                    <div class="frontalCard">
+                        <img src="./img/cards/Cards_02_frontal_400x400.png" alt="">
+                    </div>
+                    <div class="tituloCard">
+                        <h2>SaveWaterGame</h2>
+                    </div>
+                    <div class="textoCard">
+                        <p>¡Identifica las acciones buenas y malas! Usa las flechas para mover al perro y eliminar solo las acciones malas. ¡Los niveles son infinitos!</p>
+                    </div>
+                    <div class="btnCard">
+                        <a href="./pages/destacados-mes/destacado2.html">¡A jugar!</a>
+                    </div>
+                </article>
+                <article class="destacado-card">
+                    <div class="corazonCard">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <div class="fondoCard">
+                        <img src="./img/cards/Cards_03_fondo_800x400.png" alt="">
+                    </div>
+                    <div class="frontalCard">
+                        <img src="./img/cards/Cards_03_frontal_400x400.png" alt="">
+                    </div>
+                    <div class="tituloCard">
+                        <h2>Aqua Dino House lvl1 on Scratch</h2>
+                    </div>
+                    <div class="textoCard">
+                        <p>¡Ayuda a Mr. Dino a cuidar el agua reparando averías caseras! Usa las flechas para moverte y los números 1:Sí y 2:No para reparar</p>
+                    </div>
+                    <div class="btnCard">
+                        <a href="./pages/destacados-mes/destacado3.html">¡A jugar!</a>
+                    </div>
+                </article>
+                <article class="destacado-card">
+                    <div class="corazonCard">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <div class="fondoCard">
+                        <img src="./img/cards/Cards_04_fondo_500x400.png" alt="">
+                    </div>
+                    <div class="frontalCard">
+                        <img src="./img/cards/Cards_04_frontal_400x400.png" alt="">
+                    </div>
+                    <div class="tituloCard">
+                        <h2>AquaQuiz</h2>
+                    </div>
+                    <div class="textoCard">
+                        <p>¡Mide tu conocimiento acerca del agua y trata de no equivocarte! Concéntrate para responder las preguntas.</p>
+                    </div>
+                    <div class="btnCard">
+                        <a href="./pages/destacados-mes/destacado4.html">¡A jugar!</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="favoritos">
+            <p>FAVORITOS</p>
+            <div class="favoritos-juegos">
+                <a href="./pages/favoritos/favorito1.html">
+                    <div class="favoritos-cajas">
+                        <!--<img src="./img/cards/batman_frontal.jpg" alt="" class="favoritos-cajas-img">-->
+                    </div>
+                </a>
+                <a href="./pages/favoritos/favorito2.html">
+                    <div class="favoritos-cajas">
+                        <!--<img src="./img/cards/batman_frontal.jpg" alt="" class="favoritos-cajas-img">-->
+                    </div>
+                </a>
+                <a href="./pages/favoritos/favorito3.html">
+                    <div class="favoritos-cajas">
+                        <!--<img src="./img/cards/batman_frontal.jpg" alt="" class="favoritos-cajas-img">-->
+                    </div>
+                </a>
+                <a href="./pages/favoritos/favorito4.html">
+                    <div class="favoritos-cajas">
+                        <!--<img src="./img/cards/batman_frontal.jpg" alt="" class="favoritos-cajas-img">-->
+                    </div>
+                </a>
+                <a href="./pages/favoritos/favorito5.html">
+                    <div class="favoritos-cajas">
+                        <!--<img src="./img/cards/batman_frontal.jpg" alt="" class="favoritos-cajas-img">-->
+                    </div>
+                </a>
+            </div>
+        </section>
+        <section id="noticias" class="noticias">
+            <p>NOTICIAS</p>
+            <div class="noticias-juegos">
+                <a href="./pages/noticias/noticia1.html">
+                    <div class="noticias-progress-bar-box" style="--i:15%;--clr:#fd0a54;">
+                        <div class="noticias-progress-bar-circle">
+                            <h2>15<small>%</small></h2>
+                        </div>
+                        <!--<h3>Html</h3>-->
+                        <p>15% de los habitantes de Lima Metropolitana no tienen acceso a servicios de agua.</p>
+                    </div>
+                </a>
+                <a href="./pages/noticias/noticia2.html">
+                    <div class="noticias-progress-bar-box" style="--i:9%;--clr:#ffbc11;">
+                        <div class="noticias-progress-bar-circle">
+                            <h2>9<small>%</small></h2>
+                        </div>
+                        <!--<h3>Html</h3>-->
+                        <p>9 % de los 5,8 millones de muertes de niños menores de 5 años a nivel mundial se debe a enfermedades diarreicas relacionadas con servicios de agua deficientes.</p>
+                    </div>
+                </a>
+                <a href="./pages/noticias/noticia3.html">
+                    <div class="noticias-progress-bar-box" style="--i:35%;--clr:#0de5aB;">
+                        <div class="noticias-progress-bar-circle">
+                            <h2>35<small>%</small></h2>
+                        </div>
+                        <!--<h3>Html</h3>-->
+                        <p>En el Perú se pierde el 35% del agua potable por instalaciones irregulares, fugas, medidores en mal estado, etc.</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="footer">
+            <div class="footer-logo-iconos">
+                <div class="footer-logo">
+                    <img src="./img/Group 5.png" alt="logo" class="footer-logo-img">
+                </div>
+                <div class="footer-iconos">
+                    <img src="./img/icon-facebook.svg" alt="facebook">
+                    <img src="./img/icon-youtube.svg" alt="youtube">
+                    <img src="./img/icon-twitter.svg" alt="twitter">
+                    <img src="./img/icon-pinterest.svg" alt="pinterest">
+                    <img src="./img/icon-instagram.svg" alt="instagram">                    
+                </div>
+            </div>
+            <div class="footer-enlaces">
+                <ul class="footer-enlaces-lista1">
+                    <li><a href="https://github.com/AlejDev17/" target="_blank">Mi Github</a></li>
+                    <li><a href="https://replit.com/@AlejandroAvend7/" target="_blank">Mi Replit</a></li>
+                    <li><a href="https://www.youtube.com/channel/UC0yD5ZdLD7pwRw36VfGjg0w" target="_blank">Mi @Youtube</a></li>
+                    <li><a href="#">Mi Discord</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="footer-copyright">
+            <p class="footer-copyright-texto">Copyright 2023. Alejandro Avendaño. All Rights Reserved</p>
+        </section>
+    </footer>
+    <!--Inicio de diseño de lluvia-->
+    <div class="contenedor2">
+        <div class="rain">
+            <div class="drop"></div>
+            <div class="waves">
+                <div></div>
+                <div></div>
+            </div>
+            <div class="splash"></div>
+            <div class="particles">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    
+        <div class="rain">
+            <div class="drop"></div>
+            <div class="waves">
+                <div></div>
+                <div></div>
+            </div>
+            <div class="splash"></div>
+            <div class="particles">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    
+        <div class="rain">
+            <div class="drop"></div>
+            <div class="waves">
+                <div></div>
+                <div></div>
+            </div>
+            <div class="splash"></div>
+            <div class="particles">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    
+        <div class="rain">
+            <div class="drop"></div>
+            <div class="waves">
+                <div></div>
+                <div></div>
+            </div>
+            <div class="splash"></div>
+            <div class="particles">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    
+        <div class="rain">
+            <div class="drop"></div>
+            <div class="waves">
+                <div></div>
+                <div></div>
+            </div>
+            <div class="splash"></div>
+            <div class="particles">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    
+        <div class="rain">
+            <div class="drop"></div>
+            <div class="waves">
+                <div></div>
+                <div></div>
+            </div>
+            <div class="splash"></div>
+            <div class="particles">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    
+        <div class="rain">
+            <div class="drop"></div>
+            <div class="waves">
+                <div></div>
+                <div></div>
+            </div>
+            <div class="splash"></div>
+            <div class="particles">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    
+        <div class="rain">
+            <div class="drop"></div>
+            <div class="waves">
+                <div></div>
+                <div></div>
+            </div>
+            <div class="splash"></div>
+            <div class="particles">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    
+        <div class="rain">
+            <div class="drop"></div>
+            <div class="waves">
+                <div></div>
+                <div></div>
+            </div>
+            <div class="splash"></div>
+            <div class="particles">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <!--Fin de diseño de lluvia-->
+    <script src="./js/menu_dropdown.js"></script>
+    <script src="./js/carrousel_automatico.js"></script>
+</body>
+</html>
